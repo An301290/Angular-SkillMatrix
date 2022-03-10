@@ -1,0 +1,33 @@
+<div class="card p-4 d-flex align-items-center border-0">
+      <div class="card-body"> 
+          <div class="card-inside p-3">
+            <h5 class="title d-flex justify-content-center ">FILTER BY.: </h5>
+           <div class="p-3"  *ngFor="let filterrow of filterRows" >
+          <filterrow></filterrow>
+           </div>
+           <div class="container">
+              <div class="row">   
+                  <div class=" d-flex p-3 flex-row justify-content-between">
+                      <button class="btn btn-light" (click)="addNewFilterRow()">Add</button>
+                       <button class="btn btn-light">Apply</button> 
+                  </div>    
+              </div>
+            </div>
+          </div>
+     
+
+
+
+
+
+
+
+
+
+
+
+     
+
+        
+    
+
