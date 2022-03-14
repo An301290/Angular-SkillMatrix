@@ -10,7 +10,7 @@ import { ProductListComponent } from './product/product-list.component';
 import { FilterComponent } from './filter/filter.component'; 
 import {ConvertToSpacesPipe} from './shared/convert-to-spaces.pipe';
 import { FilterRowComponent } from './components/filterrow/filterrow.component';
-
+import {StarComponent} from './components/star/star.component'
 
 @NgModule({
   declarations: [
@@ -19,7 +19,8 @@ import { FilterRowComponent } from './components/filterrow/filterrow.component';
     ProductListComponent,
     FilterComponent, 
     ConvertToSpacesPipe, 
-    FilterRowComponent
+    FilterRowComponent, 
+    StarComponent
   ],
   imports: [
     BrowserModule,
