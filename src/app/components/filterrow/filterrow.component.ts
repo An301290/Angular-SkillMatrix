@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'filterrow',
   templateUrl: './filterrow.component.html',
-  styleUrls: ['./filterrow.component.css']
+  styleUrls: ['./filterrow.component.scss']
 })
 export class FilterRowComponent implements OnInit {
 
@@ -12,8 +12,5 @@ export class FilterRowComponent implements OnInit {
   ngOnInit(): void {
   }
   
-  /*onClick() {
-    console.log('Add')
-  }*/
 }
 

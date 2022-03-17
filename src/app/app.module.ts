@@ -11,6 +11,7 @@ import { FilterComponent } from './filter/filter.component';
 import {ConvertToSpacesPipe} from './shared/convert-to-spaces.pipe';
 import { FilterRowComponent } from './components/filterrow/filterrow.component';
 import {StarComponent} from './components/star/star.component'
+import { NavMenuComponent } from './nav-menu/nav-menu.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import {StarComponent} from './components/star/star.component'
     FilterComponent, 
     ConvertToSpacesPipe, 
     FilterRowComponent, 
-    StarComponent
+    StarComponent, 
+    NavMenuComponent
   ],
   imports: [
     BrowserModule,

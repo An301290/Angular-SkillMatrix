@@ -1,0 +1,70 @@
+<nav
+  class="navbar pr-5 pl-5 d-flex flex-row justify-content-evenly navbar-expand-lg navbar-toggleable-sm navbar-light bg-black border-bottom box-shadow p-1"
+  [class.active]="show == true"
+>
+  <div class="container col-2">
+    <a class="navbar-brand" routerLink="/">
+      <h2 class="title"><SPAN class="text">Skill</SPAN> Matrix</h2>
+    </a>
+    <i class="filter fa fa-filter" style="font-size: 30px"></i>
+  </div>
+  <div class="container col-6 d-flex justify-content-end">
+    <ul class="navbar-nav d-flex flex-row me-1">
+      <li class="nav-item me-3 me-lg-0">
+        <a class="nav-link" href="#">
+          <h2 class="user-info pr-5 pl-5">Hello John</h2>
+        </a>
+      </li>
+      <li class="nav-item me-3 me-lg-0">
+        <a class="nav-link" href="#"
+          ><img
+            class="userImage img-fluid rounded-circle pr-5 pl-5"
+            src="../../assets/Image_user.jpg"
+            alt=""
+        /></a>
+      </li>
+    </ul>
+  </div>
+  <div class="row">
+    <div class="col-8 d-flex align-items-center">
+      <form class="form-inline pr-5 pl-5">
+        <input
+          class="form-control mr-sm-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+      </form>
+    </div>
+    <div class="col d-flex align-items-center">
+      <div class="hamburger" (click)="hamburgerToggle()">
+        <span class="line1"></span>
+        <span class="line2"></span>
+        <span class="line3"></span>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="menu" [class.active]="show == true">
+  <ul>
+    <li>
+      <a>TEAMS</a>
+    </li>
+    <li>
+      <a>CHARTS</a>
+    </li>
+    <li>
+      <a>CONTACT</a>
+    </li>
+    <li>
+      <a>ADMIN</a>
+    </li>
+
+    <hr class="solid" />
+
+    <li>
+      <a>LOG OUT</a>
+    </li>
+  </ul>
+  <div></div>
+</div>

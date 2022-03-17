@@ -3,7 +3,7 @@ import { Component, OnInit, OnChanges, Input, EventEmitter, Output } from '@angu
 @Component({
   selector: 'star',
   templateUrl: './star.component.html',
-  styleUrls: ['./star.component.css']
+  styleUrls: ['./star.component.scss']
 })
 export class StarComponent implements OnChanges {
 //Input send data to the nested component 
