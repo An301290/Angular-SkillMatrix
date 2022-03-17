@@ -1,18 +1,10 @@
-.userImage {
-  width: 50px;
-  height: 50px;
-}
-.filter {
-  color: white;
-}
-.text {
-  color: #00a3ff;
-}
-.title {
-  color: white;
-}
-.user-info {
-  color: white;
+.button-filter {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
 }
 
 .hamburger {
@@ -32,6 +24,7 @@
   }
 }
 .navbar {
+  background-color: #393939;
   &.active {
     //color: black;
 
@@ -53,10 +46,11 @@
     }
   }
 }
+
 .menu {
   width: 300px;
   height: 100vh;
-  background-color: black;
+  background-color: #393939;
   position: fixed;
   top: 0;
   right: -300px;
@@ -102,20 +96,25 @@
     }
   }
 }
-
-/*.userImage{
-    width: 50px;
-    height: 50px;
+.modal-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
-.user-info{
-    color:white; 
+.userImage {
+  width: 50px;
+  height: 50px;
 }
-
-.text{
-    color: #00A3FF; 
+.filter {
+  color: white;
 }
-
-.title{
-    color:white; 
-}*/
+.text {
+  color: #00a3ff;
+}
+.title {
+  color: white;
+}
+.user-info {
+  color: white;
+}
