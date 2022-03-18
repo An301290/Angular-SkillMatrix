@@ -22,7 +22,6 @@ export class NavMenuComponent implements OnInit {
     this.isExpanded = !this.isExpanded;
   }
 
-  //Filter Modal
   showFilterModal = false;
 
   toggleModal() {
