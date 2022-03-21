@@ -14,6 +14,9 @@ import { ConvertToSpacesPipe } from './shared/convert-to-spaces.pipe';
 import { FilterRowComponent } from './components/filterrow/filterrow.component';
 import { StarComponent } from './components/star/star.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
+import { ProductDetailComponent } from './product/product-detail.component';
+import { RouterModule } from '@angular/router';
+import { WelcomeComponentComponent } from './welcome-component/welcome-component.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +28,8 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
     FilterRowComponent,
     StarComponent,
     NavMenuComponent,
+    ProductDetailComponent,
+    WelcomeComponentComponent,
   ],
   imports: [
     BrowserModule,
@@ -32,6 +37,7 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
     FormsModule,
     NgbModule,
     HttpClientModule,
+    RouterModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
